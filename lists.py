@@ -28,8 +28,9 @@ def check_lists(lista1, lista2):
 
 def list_of_lists(lista):
   nueva_lista = [
-      lista[0][:2],    
-      lista[1][0:4],    
+      lista[0][:2],     
+      lista[1][1:4],    
       lista[2][-2:]     
   ]
   return nueva_lista
+  
